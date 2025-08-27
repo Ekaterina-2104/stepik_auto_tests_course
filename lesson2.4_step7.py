@@ -5,7 +5,7 @@ from selenium import webdriver
 
 browser = webdriver.Chrome()
 
-browser.get("http://suninjuly.github.io/wait2.html")
+browser.get("https://suninjuly.github.io/wait2.html")
 
 # говорим Selenium проверять в течение 5 секунд, пока кнопка не станет кликабельной
 button = WebDriverWait(browser, 5).until(
